@@ -30,4 +30,5 @@ Output: int sum
             sum += f(A, i, j)
 ```
 
-Without knowing anything about $f$, what can we say about the running time of the Mystery Algorithm in terms of $n$? Justify your answer. 
+Without knowing anything about $f$, what can we say about the running time of the Mystery Algorithm in terms of $n$? Justify your answer.
+

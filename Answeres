@@ -1,0 +1,19 @@
+Answeres.
+
+Problem 1
+
+1. Could be true or false — $T(n)$ could be $n^2$, but could grow faster such as $n^3$.
+
+2. Could be true or false — $T(n)$ could be $n^3$, but could also be $n^2$ or between $n^2$ and $n^3$.
+
+3. Must be true — since $T(n) = \Omega(n^2)$, it is also $\Omega(n)$.
+
+4. Must be false — $n^{1.5}$ grows slower than $n^2$, contradicting $\Omega(n^2)$.
+
+5. Must be false — $O(n)$ cannot satisfy $\Omega(n^2)$.
+
+6. Could be true or false — $n^2 \log n$ lies asymptotically between $n^2$ and $n^3$, so it fits but is not guaranteed.
+
+Problem 2
+
+The running time is at least $\Omega(n^2)$ because $f(A,i,j)$ is called $n^2$ times. Without knowing the running time of $f$, no tighter overall bound or upper bound can be determined.
